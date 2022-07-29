@@ -31,6 +31,7 @@ body {
 /* =======Header======== */
 .menu-link {
   position: relative;
+  transition-duration: var(--duration-сss-transition);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +56,7 @@ body {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: var(--two-text-color);
 }
 
 .navigation .current {
@@ -144,10 +145,11 @@ body {
   margin-right: 10px;
 }
 
-.link,
 .link-number:hover,
-.link,
 .link-number:focus {
+  transition-property: color;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--two-text-color);
 }
 
