@@ -445,6 +445,8 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-two {
@@ -454,6 +456,9 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-one {
@@ -463,6 +468,9 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-item {
@@ -484,8 +492,6 @@ body {
   color: var(--two-text-color);
   border: 1px solid var(--two-text-color);
   border-radius: 4px;
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon-svg {
@@ -517,8 +523,6 @@ body {
 .social-list-link:focus {
   background-color: var(--two-text-color);
   color: var(--five-text-color);
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =======/PORTFOLIO======== */
 
@@ -562,13 +566,13 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .example:focus,
 .example:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-overlay {
@@ -586,14 +590,10 @@ body {
 .exemple-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .exemple-link:hover .box-content {
   transform: translateY(0%);
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-content {
@@ -649,14 +649,14 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
   background-color: var(--two-text-color);
   color: var(--five-text-color);
-  transition-duration: var(--duration-сss-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .margin-stop {
