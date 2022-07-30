@@ -44,6 +44,8 @@ body {
 .menu-link:focus,
 .menu-link:current {
   color: var(--two-text-color);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link.current::after {
@@ -241,6 +243,8 @@ body {
 
 .modal-btn:hover {
   background-color: #188ce8;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .motto {
@@ -374,6 +378,8 @@ body {
   color: var(--five-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list {
@@ -478,6 +484,8 @@ body {
   color: var(--two-text-color);
   border: 1px solid var(--two-text-color);
   border-radius: 4px;
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon-svg {
@@ -509,6 +517,8 @@ body {
 .social-list-link:focus {
   background-color: var(--two-text-color);
   color: var(--five-text-color);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =======/PORTFOLIO======== */
 
@@ -557,6 +567,8 @@ body {
 .example:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-overlay {
@@ -574,10 +586,14 @@ body {
 .exemple-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .exemple-link:hover .box-content {
   transform: translateY(0%);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-content {
@@ -639,6 +655,8 @@ body {
 .social-list-link-footer:focus {
   background-color: var(--two-text-color);
   color: var(--five-text-color);
+  transition-duration: var(--duration-сss-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .margin-stop {
